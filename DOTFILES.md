@@ -455,18 +455,18 @@ __git_ps1 ()
 
 # for .bash_profile
 
-```export CLICOLOR=1```
-```export LSCOLORS=GxFxCxDxBxegedabagaced```
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
 
 # Load in the git branch prompt script.
-```source ~/.git-prompt.sh```
+source ~/.git-prompt.sh
 
-```export PS1="\[\033[1;34m\]\!\[\033[0m\] \[\033[1;35m\]\u\[\033[0m\]:\[\033[1;35m\]\w\[\033[0m\]$(__git_ps1 '(%s)') \$ "```
+export PS1="\[\033[1;34m\]\!\[\033[0m\] \[\033[1;35m\]\u\[\033[0m\]:\[\033[1;35m\]\w\[\033[0m\]$(__git_ps1 '(%s)') \$ "
 
-```alias pg-start='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'```
-```alias pg-stop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'```
+alias pg-start='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
+alias pg-stop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
 
-```alias ls='ls -lahPfG'```
+alias ls='ls -lahPfG'
 
 # git stuff
-```alias gs='git status'```
+alias gs='git status'
